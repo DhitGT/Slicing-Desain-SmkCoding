@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- navbar  -->
     <header>
       <div class="container d-flex justify-content-between">
         <nav>
@@ -47,12 +48,16 @@
               </li>
             </ul>
           </div>
+          <button>
+            <img src="assets/icon-hamburger.svg" />
+          </button>
         </nav>
       </div>
     </header>
+    <!-- section hero -->
     <section id="hero">
       <div class="container">
-        <div class="hero mt-5 d-flex flex-lg-row flex-column">
+        <div class="hero mt-5 d-flex flex-lg-row flex-column-reverse">
           <div class="hero-left">
             <div class="title">
               Bergabunglah dengan jutaan orang dan belajar hal baru
@@ -72,6 +77,7 @@
         </div>
       </div>
     </section>
+    <!-- section ribbon -->
     <section id="ribbon">
       <div class="ribbon">
         <div class="container">
@@ -114,10 +120,18 @@
                 <li>
                   <span class="selected"> Javascript </span>
                 </li>
-                <li>Python</li>
-                <li>Web Development</li>
-                <li>Art & Design</li>
-                <li>Business</li>
+                <li>
+                  <a href=""> Python </a>
+                </li>
+                <li>
+                  <a href=""> Web Development </a>
+                </li>
+                <li>
+                  <a href=""> Art & Design </a>
+                </li>
+                <li>
+                  <a href=""> Business </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -302,11 +316,12 @@
         </div>
       </div>
     </section>
+    <!-- section promote -->
     <section id="promote">
       <div class="container">
         <div class="d-flex promote-body">
           <div>
-            <img src="assets/membership-image.png" alt="" />
+            <img class="img-promote" src="assets/membership-image.png" alt="" />
           </div>
           <div>
             <p>Dapatkan membership Pro GRATIS untuk kelas kamu.</p>
@@ -317,6 +332,7 @@
         </div>
       </div>
     </section>
+    <!-- section category -->
     <section id="category">
       <div class="container">
         <div class="category">
@@ -402,9 +418,10 @@
         </p>
       </div>
     </section>
+    <!-- section upgrade -->
     <section id="upgrade">
       <div class="container">
-        <div class="upgrade d-flex">
+        <div class="upgrade d-flex flex-column flex-lg-row">
           <div class="left">
             <img src="assets/business-image.png" alt="" />
           </div>
@@ -421,20 +438,21 @@
         </div>
       </div>
     </section>
+    <!-- section event -->
     <section id="event">
       <div class="container">
         <div class="event">
           <h2 align="center">Event sedang berlangsung di dekatmu</h2>
-          <div class="event-wrapper">
+          <div class="event-wrapper d-flex flex-column flex-lg-row">
             <div class="event-card">
               <img src="assets/event-1.png" />
               <div class="km d-flex">
                 <div>
                   <h3>21</h3>
-                  <p>km</p>
+                  <p>March</p>
                 </div>
                 <img src="assets/icon-location.svg" alt="" />
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>North Caroline Unite States</span>
               </div>
               <p class="bold">
                 Linear Progression in Python : Introduction Simple Linear
@@ -445,10 +463,10 @@
               <div class="km d-flex">
                 <div>
                   <h3>21</h3>
-                  <p>km</p>
+                  <p>March</p>
                 </div>
                 <img src="assets/icon-location.svg" alt="" />
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>North Caroline Unite States</span>
               </div>
               <p class="bold">
                 Linear Progression in Python : Introduction Simple Linear
@@ -459,10 +477,10 @@
               <div class="km d-flex">
                 <div>
                   <h3>21</h3>
-                  <p>km</p>
+                  <p>March</p>
                 </div>
                 <img src="assets/icon-location.svg" alt="" />
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>North Caroline Unite States</span>
               </div>
               <p class="bold">
                 Linear Progression in Python : Introduction Simple Linear
@@ -472,5 +490,91 @@
         </div>
       </div>
     </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="top d-flex flex-column flex-lg-row">
+          <div class="footer-section">
+            <img
+              class="smk-coding-logo"
+              src="assets/logo-ligasmk-white.png"
+              alt=""
+            />
+            <p>
+              Mengubah kehidupan, bisnis, dan bangsa melalui transformasi
+              talenta di bidang teknologi digital.
+            </p>
+            <div class="d-flex footer-icon">
+              <a href="">
+                <img src="assets/icon-facebook-white.svg" />
+              </a>
+              <a href="">
+                <img src="assets/icon-twitter-white.svg" />
+              </a>
+              <a href="">
+                <img src="assets/icon-linkedin-white.svg" />
+              </a>
+              <a href="">
+                <img src="assets/icon-youtube-white.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h5>Resources</h5>
+            <div class="footer-list">
+              <a href="">
+                <p>Build Career</p>
+              </a>
+              <a href="">
+                <p>Explore Subjects</p>
+              </a>
+              <a href="">
+                <p>Gain a Skill</p>
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h5>Support</h5>
+            <div class="footer-list">
+              <a href="">
+                <p>Web Development</p>
+              </a>
+              <a href="">
+                <p>Data Science</p>
+              </a>
+              <a href="">
+                <p>Machine Learning</p>
+              </a>
+              <a href="">
+                <p>Developer Tools</p>
+              </a>
+              <a href="">
+                <p>Web Design</p>
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h5>Download Now</h5>
+            <div class="footer-img-apps">
+              <a href="">
+                <img src="assets/logo-appstore.png" />
+              </a>
+              <a href="">
+                <img src="assets/logo-googleplay.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="bottom d-flex">
+          <a href="">Site Map</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms & Condition</a>
+          <a href="">Contact Us</a>
+          <a href="">Forums</a>
+          <a class="ms-auto">Liga SMK 2022</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
