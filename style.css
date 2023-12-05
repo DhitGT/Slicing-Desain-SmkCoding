@@ -240,7 +240,7 @@ nav ul li:active{
     gap: 1.5em;
     box-shadow: 0 0 42px 3px rgba(0, 0, 0, 0.1);
     padding: 1em;
-    width: 15em;
+    width: 24%;
 }
 
 .category-item .left img{
@@ -563,4 +563,8 @@ footer  a{
 
 .txt-purple{
     color: #3A10E5;
+}
+
+.bg-text{
+background: linear-gradient(to top, #faca3ba2, #00000000);
 }
